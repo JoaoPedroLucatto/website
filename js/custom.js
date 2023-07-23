@@ -3,8 +3,9 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		'verticalCentered': false,
-		'scrollingSpeed': 800,
 		'autoScrolling': false,
+		'setFitToSection': false,
+		'fitToSection': false,
 		'css3': true,
 		'navigation': true,
 		'navigationPosition': 'right',
@@ -23,7 +24,7 @@ $(document).ready(function() {
 			strings: [
 			  "Software Developer | Ruby on Rails | Go | API | DevOps"
 			],
-			typeSpeed: 180,
+			typeSpeed: 120,
 			contentType: 'html'
 		  });
 	}, 500);
